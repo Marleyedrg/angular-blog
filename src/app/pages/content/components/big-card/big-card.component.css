@@ -1,0 +1,34 @@
+.container__big-card{
+    height: fit-content;
+
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+}
+.big-card__picture > img{
+    width: 100%;
+    border-radius: 0.5rem;
+}
+.big-card__picture{
+    padding-bottom: 1rem;
+}
+.big-card__title,.big-card__description{
+    padding: 0 0.5rem 0.5rem 0.5rem;
+}
+.big-card__title > h1{
+    font-size: 20px;
+}
+
+.big-card__description > p{
+    color: grey;
+}
+
+.big-card__description > p > .author{
+    display: block;
+    color: white;
+    font-weight: bold;
+    font-size: smaller;
+}

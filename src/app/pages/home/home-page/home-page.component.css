@@ -1,0 +1,10 @@
+.articles{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+header{
+    margin-top: 0.5rem;
+}
+
+

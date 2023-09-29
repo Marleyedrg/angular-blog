@@ -1,0 +1,24 @@
+li{
+    list-style: none;
+}
+.container__menu-bar{
+    width: 100%;
+}
+
+.container__menu-bar > ul{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    justify-content: center;
+    text-align: center;
+
+    height: 2rem;
+    padding: 0.2rem;
+}
+li:active{
+    transform: scale(1.10);
+}
+a:hover{
+    color: gray;
+    transition: 0.7s all;
+}
