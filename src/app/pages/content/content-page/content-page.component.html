@@ -1,0 +1,23 @@
+<header>
+    <app-menu-bar></app-menu-bar>
+</header>
+
+<app-menu-title
+cardTitle="https://angular.io/assets/images/logos/angular/logo-nav@2x.png"
+></app-menu-title>
+
+
+<div class="container-content">
+    <a [routerLink] = "['']"  style="align-self: flex-start;"
+    >⬅BACK</a>
+    <div class="container-cover">
+        <img src="{{photoCover}}" alt="" srcset="">
+    </div>
+    <div class="container-title">
+        <h1>{{contentTitle}}</h1>
+
+    </div>
+    <div class="container-description">
+        <a href="{{link}}"><p>{{contentDescription}}</p></a>
+    </div>
+</div>

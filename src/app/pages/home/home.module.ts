@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { AppRoutingModule } from 'src/app/app-routing.module';
 
 import { MenuBarComponent } from '../components/menu-bar/menu-bar.component';
 import { MenuTitleComponent } from '../components/menu-title/menu-title.component';
@@ -18,10 +19,13 @@ import { HomePageComponent } from './home-page/home-page.component';
     HomePageComponent,
   ],
   exports:[
+    MenuTitleComponent,
+    MenuBarComponent,
     HomePageComponent,
   ],
   imports: [
     CommonModule,
+    AppRoutingModule,
   ]
 })
 export class HomeModule { }
