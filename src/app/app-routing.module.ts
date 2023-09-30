@@ -6,7 +6,7 @@ import { ContentPageComponent } from './pages/content/content-page/content-page.
 
 const routes: Routes = [
   {
-    path:"**",
+    path:"*",
     redirectTo:'',
   },
   {
