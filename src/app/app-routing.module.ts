@@ -6,8 +6,13 @@ import { ContentPageComponent } from './pages/content/content-page/content-page.
 
 const routes: Routes = [
   {
+    path:"**",
+    redirectTo:'',
+  },
+  {
     path:"",
     component:HomePageComponent,
+    pathMatch:'full',
   },
   {
     path:"content/:id",
